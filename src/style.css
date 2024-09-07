@@ -1,0 +1,169 @@
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.formContainer {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formContainer .fromWrapper {
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.formContainer .fromWrapper .logo {
+  color: #5d5b8d;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: -20px;
+}
+.formContainer .fromWrapper .title {
+  color: #5d5b8d;
+  font-size: 12px;
+}
+.formContainer .fromWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formContainer .fromWrapper form input {
+  border: none;
+  padding: 15px;
+  width: 250px;
+  border-bottom: 1px solid #5d5b8d;
+}
+.formContainer .fromWrapper form input::-moz-placeholder {
+  color: rgb(175, 175, 175);
+}
+.formContainer .fromWrapper form input::placeholder {
+  color: rgb(175, 175, 175);
+}
+.formContainer .fromWrapper form:focus {
+  border: 1px solid red;
+}
+.formContainer .fromWrapper form button {
+  background-color: #7b96ec;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.formContainer .fromWrapper form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8da4f1;
+  font-size: 12px;
+  cursor: pointer;
+}
+.formContainer .fromWrapper form img {
+  width: 32px;
+}
+.formContainer .fromWrapper p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #5d5b8d;
+}
+
+.home {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .container {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+}
+.home .container .sidebar {
+  flex: 1;
+  border-right: 2px solid #5d5b8d;
+  background-color: #3e3c61;
+  position: relative;
+}
+.home .container .sidebar .navbar {
+  display: flex;
+  align-items: center;
+  background-color: #2f2d52;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+.home .container .sidebar .navbar .logo {
+  font-weight: bold;
+}
+.home .container .sidebar .navbar .user {
+  display: flex;
+  gap: 10px;
+}
+.home .container .sidebar .navbar .user img {
+  background-color: #ddddf7;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .container .sidebar .navbar .user button {
+  background-color: #5d5b8d;
+  color: #ddddf7;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+.home .container .sidebar .search {
+  border-bottom: 1px solid gray;
+}
+.home .container .sidebar .search .searchForm {
+  padding: 10px;
+  border-bottom: 1px solid #5d5b8d;
+}
+.home .container .sidebar .search .searchForm input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.home .container .sidebar .search .searchForm input::-moz-placeholder {
+  color: lightgray;
+}
+.home .container .sidebar .search .searchForm input::placeholder {
+  color: lightgray;
+}
+.home .container .sidebar .userChat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+.home .container .sidebar .userChat:hover {
+  background-color: #2f2d52;
+}
+.home .container .sidebar .userChat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .container .chat {
+  flex: 3;
+}/*# sourceMappingURL=style.css.map */
